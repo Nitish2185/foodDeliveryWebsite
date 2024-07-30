@@ -1,0 +1,97 @@
+.footer-app-container{
+    width: 100vw;
+    height: 350px;
+    text-align: center;
+    margin-top: 80px;
+}
+.app-download{
+    padding-top: 30px;
+    height: 100%;
+}
+#text2{
+    font-size: 60px;
+    padding-bottom: 40px;
+}
+#download-image{
+    padding: 20px;
+    height: 100px;
+}
+#download-image:hover{
+    transform: scale(1.1);
+}
+.about-container{
+    width: 100vw;
+    background-color:darkslategray;
+    color: rgba(231, 227, 227, 0.947);
+    height: 500px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.about-details{
+    width: 42vw;
+    height: 400px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.about-company{
+    width:29vw;
+    height: 400px;
+}
+.about-contact{
+    width: 29vw;
+    height: 400px;
+}
+#companyName{
+    font-size: 50px;
+    font-weight: 700;
+    color: orangered;
+    padding-top: 10px;
+}
+#details{
+    font-size: 28px;
+    font-weight: 520;
+    
+}
+.about-company{
+    padding-left: 140px;
+    padding-top: 100px;
+}
+#company{
+    padding-left: 20px;
+    font: 600;
+    font-size: 48px;
+    padding-bottom: 20px;
+    
+}
+.list-items{
+    list-style: none;
+    font-size: xx-large;
+    font-weight: 540;
+    
+}
+#lists{
+    padding-top: 14px;
+}
+.list-items:hover{
+    cursor: pointer;
+}
+.about-contact{
+    padding-left: 180px;
+    padding-top: 100px;
+  
+}
+.touch{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.contacts{
+    font-size: 30px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+#number{
+    font-size: 24px;
+    padding-left: 20px;
+}

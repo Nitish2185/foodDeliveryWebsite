@@ -1,0 +1,27 @@
+.place-order{
+    display: flex;
+    margin-top: 100px;
+    padding-left: 300px;
+}
+.place-order-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.title{
+    font-size: 50px;
+    font-weight: 600;
+}
+.place-order-left input{
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+.multi-fields{
+    display: flex;
+    gap: 20px;
+}
+.place-order-right{
+    margin-left: 300px;
+}

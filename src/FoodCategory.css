@@ -1,0 +1,55 @@
+.food-choice{
+    display: flex;
+    gap: 64px;
+    margin-top: 60px;
+}
+#imgname{
+    font-size: 30px;
+    padding-top: 15px;
+    
+}
+.salad{
+    text-align: center;
+}
+.menu-container{
+    width: 100vw;
+    
+    display: grid;
+    justify-content: center;
+}
+.exploreMenu{
+    width: 74vw;
+    height: auto;
+   
+}
+#text{
+    font-size: 60px;
+}
+#para2{
+    font-size:28px;
+    color: rgb(95, 93, 93);
+    font-family:sans-serif;
+    margin-top: 30px;
+}
+#imgbtn{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#imgbtn:hover{
+    opacity: 70%;
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+#line{
+    margin: 100px 0 60px 0;
+    width: 100%;
+    margin-left: 0;
+    border-top: 4px solid gray;
+}
+.salad .active{
+    border: 4px solid tomato; 
+    padding: 2px; 
+}

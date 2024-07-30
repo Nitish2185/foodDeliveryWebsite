@@ -1,0 +1,41 @@
+.mainContainer{
+    width: 100vw;
+    
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 800px;
+    width: 66vw;
+    background: url(assets/header_img.png) no-repeat;
+    background-size: contain;
+    position: relative;
+    padding-left: 8vw;
+    border-radius: 40px;
+    background-position: center;
+
+}
+#heading{
+    font-size: 110px;
+    padding-top: 20vh;  
+    color: white; 
+    animation: fadeIn 4s;
+}
+#para{
+    font-size:24px ;  
+    margin-top: 30px;  
+    color: white;
+    animation: fadeIn 4s; 
+}
+.view-menu{
+    height: 86px;
+    width: 250px;
+    border-radius: 60px;
+    margin-top: 30px;
+    font-size:x-large;
+    color: rgb(86, 81, 81);
+    border: none;
+    animation: fadeIn 4s;
+}

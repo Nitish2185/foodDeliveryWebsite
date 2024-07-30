@@ -1,0 +1,16 @@
+.dishes{
+    margin: 20px 340px 100px;
+    font-size: xx-large;
+}
+.food-mainContainer{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.food-container{
+    width: 74vw;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+    padding-left: 10px;
+}

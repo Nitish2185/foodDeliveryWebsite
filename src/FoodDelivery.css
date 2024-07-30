@@ -1,0 +1,110 @@
+.header{
+    height: 117px;
+    width: auto;
+   
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;  
+    padding-right: 100px;
+}
+.navbar{
+    display: flex;
+    padding-left: 180px;
+}
+#logobtn{
+    color: chocolate;
+    background-color: white;
+    border: none;
+    font-size: 60px;
+    font-weight: 760;
+    margin-right: 500px;
+    padding-top: 10px;
+}
+#logobtn:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.listitem{
+    display: flex;
+    list-style: none; 
+    gap: 100px; 
+    font-size: xx-large; 
+    margin-top: 30px;
+}
+.listitem:hover{
+    cursor: pointer;
+    
+}
+#navbar-right{
+    display: flex;
+    gap: 100px;
+}
+#navbar-right img{
+    height: 40px;
+    padding-top: 12px;
+}
+#navbar-right img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+#signbtn{
+    height:60px;
+    width: 100px;
+    font-size: larger;
+    border-radius: 28px;    
+}
+#signbtn:hover{
+    background-color: floralwhite;
+    cursor: pointer;
+}
+.navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 3px solid black;
+}
+@media (max-width:1050px) {
+    .navbar .logobtn{
+        width: 140px;
+    }
+    .listitem{
+        gap: 20px;
+        font-size: 17px;
+    }
+    .navbar-right{
+        gap: 30px;
+    }
+    .navbar-right img{
+        width: 22px;
+    }
+    .navbar-right button{
+        padding: 8px 25px;
+
+    }   
+}
+@media (max-width:900px) {
+    .navbar .logobtn{
+        width: 120px;
+    }
+    .listitem{
+        gap: 15px;
+        font-size: 16px;
+    }
+    .navbar-right{
+        gap: 20px;
+    }
+    .navbar-right img{
+        width: 20px;
+    }
+    .navbar-right button{
+        padding: 7px 20px;
+        font-size: 15px;
+    }   
+}
+@media (max-width:750px) {  
+    .listitem{
+       display: none;
+    }
+}
+#linkkk{
+    text-decoration: none;
+}
